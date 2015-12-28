@@ -39,7 +39,8 @@ group :development, :test do
 end
 
 group :test do
-	gem 'capybara', '~>2.5' 
+	gem 'capybara', '~>2.5'
+	gem 'shoulda-matchers' 
 end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
